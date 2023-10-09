@@ -1,6 +1,10 @@
+body{
+  background-color: #37434d;
+}
+
 .header-blue {
-    background: linear-gradient(135deg, rgb(108, 183, 212), #ffb3c5);
-    background-color: #184e8e;
+    background: linear-gradient(135deg, darkturquoise, #ffb3c5);
+    background-color:darkturquoise;
     padding-bottom: 80px;
     font-family: 'Source Sans Pro', sans-serif;
   }
@@ -184,7 +188,6 @@
   }
   
   .header-blue div.iphone-mockup {
-   position: relative;
       max-width: 300px;
       margin-top: 172px;
       display: inline-block;
@@ -196,7 +199,6 @@
   }
   
   .header-blue .iphone-mockup .screen {
-    position: absolute;
     width: 88%;
     height: 77%;
     top: 12%;
@@ -213,7 +215,6 @@
   .header-blue .iphone-mockup .screen:before {
     content: '';
     background-color: #fff;
-    position: absolute;
     width: 70%;
     height: 140%;
     top: -12%;
@@ -221,37 +222,51 @@
     transform: rotate(-19deg);
     opacity: 0.2;
   }
+
+  /*-----------SECTOR1-------------SECTOR1-------------SECTOR1-----------*/
   .antChars{
     text-align: center;
     font-weight: bold;
+    margin: 4em 0 2em 0;
   }
   .chars{
     display: flex;
     align-items: center;
     display: grid;
     grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
-    gap: 4em;
+    gap: 3em;
     margin: 0 auto;
     text-align: center;
-    margin-left: 15em;
-    margin-right: 15em;
+    margin:0 15em 0 15em;
   }
   .charBox{
-    height: 30em;
-    border: solid #aaa;
+    height: 35em;
     padding: 1em;
+    margin-bottom: 2em;
+    border:darkcyan solid;
+    color: darkcyan;
+    transition: 0.5s;
+    border-radius: 15px;
+  }
+  .charBox:hover{
+    border: darkslategrey solid;
+    color: darkslategrey;
+    transform: scale(1.05);
+  }
 
+  .charAux{
+    height: 88%;
   }
   .imgChar{
     width: 30%;
   }
   .titChar{
-    font-size: larger;
-    font-weight: bolder;
+    font-size:25px;
+    font-weight:bold;
+    color: black;
   }
   .carsChar{
     font-size: medium;
-    color: #184e8e;
   }
   .infoChar{
     padding: 10px 30px;
@@ -264,4 +279,61 @@
   }
   .infoChar:hover{
     background-color: #444;
+  }
+
+
+  /*-----------SECTOR2-------------SECTOR2-------------SECTOR2-----------*/
+  .textBoxes{
+    margin: 8em 0 8em 0;
+    max-height: 50em;
+  }
+  .textBoxA,.textBoxR{
+    width: 50%;
+    transition: border 0.2s;
+  }
+  .textBoxUn{
+    text-align: center;
+    padding: 20px 0 20px 0;
+    background-color: #184e8e;
+    color: aliceblue;
+    margin: 0 -15px 0 -15px;
+  }
+  .textBoxDuo{
+    text-align: center;
+    padding: 20px 0 20px 0;
+    background-color:darkred;
+    color: aliceblue;
+    margin: 0 -15px 0 -15px;
+  }
+  .textBoxSecA,
+  .textBoxSecR{
+    margin: 0 5% 0 5%;
+    transition: border 0.5s;
+  }
+  .textBoxA:hover{
+    border: solid #184e8e 3px;
+    border-top: none;
+  }
+  .textBoxR:hover{
+    border: solid darkred 3px;
+    border-top: none;
+  }
+  .imgSect{
+    height: 20em;
+  }
+
+  .despBott{
+    color: #184e8e;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .separator{
+    padding: 1px;
+    margin:5px 0 20px 0;
+    background-color: #184e8e;
+    border-radius: 5px;
+  }
+  .depBloc{
+    transition: all 0.5s ease;
   }
