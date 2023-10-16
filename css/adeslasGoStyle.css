@@ -298,3 +298,12 @@
 .footBox p{
   margin: 0 30px 0 30px;
 }
+.container{
+  text-align: center;
+}
+.producto{
+  background-color: #334b9b;
+}
+.precio{
+  background-color: #ffffff;
+}
