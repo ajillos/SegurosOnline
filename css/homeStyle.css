@@ -1,4 +1,3 @@
-
 .header-blue {
     background: linear-gradient(135deg, darkturquoise, #ffb3c5);
     background-color:darkturquoise;
@@ -144,12 +143,14 @@
     border-bottom: 1px solid #ccc;
   }
   
-  .header-blue .hero {
-    background-image: url("Imagen/familiafeliz1.jpeg");
-    margin-top: 20px;
-    text-align: center;
+  .device{
+    height: 60em;
+    width: 100%;
+    margin-top: -4em;
   }
-  
+  .headContent{
+    margin-top: -40em;
+  }
   @media (min-width:768px) {
     .header-blue .hero {
       margin-top: 60px;
@@ -190,11 +191,7 @@
       margin-top: 172px;
       display: inline-block;
   }
-  
-  .header-blue .iphone-mockup img.device {
-    width: 100%;
-    height: auto;
-  }
+
   
   .header-blue .iphone-mockup .screen {
     width: 88%;
@@ -209,16 +206,22 @@
     background-size: cover;
     background-position: center;
   }
-  
-  .header-blue .iphone-mockup .screen:before {
-    content: '';
-    background-color: #fff;
-    width: 70%;
-    height: 140%;
-    top: -12%;
-    right: -60%;
-    transform: rotate(-19deg);
-    opacity: 0.2;
+  .telegestion{
+    font-size: 20px;
+    font-weight: bolder;
+    margin: 0 4em 0 1em;
+  }
+  .device{
+    width: 100%;
+  }
+  .headApartat{
+    font-weight: bold;
+    margin: 0 20px 0 20px;
+    transition: all 0.5s;
+    border-radius: 5px;
+  }
+  .headApartat:hover{
+    background-color: #444;
   }
 
   /*-----------SECTOR1-------------SECTOR1-------------SECTOR1-----------*/
