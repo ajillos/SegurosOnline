@@ -311,3 +311,6 @@
   background-color: grey;
   text-align: center;
 }
+.imagenSeguro{
+  max-height: 100px;
+}
