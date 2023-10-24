@@ -252,6 +252,7 @@
 .carsChar{
   font-size: medium;
   color: #184e8e;
+  text-align: left;
 }
 .infoChar{
   padding: 10px 30px;
@@ -303,12 +304,15 @@
 }
 .producto{
   background-color: #334b9b;
+  color: #fff;
+  font-size: 30px;
 }
 .precio{
   background-color: #ffffff;
+  font-size: 30px;
 }
 .extras{
-  background-color: grey;
+  background-color: rgb(223, 223, 223);
   text-align: center;
 }
 .imagenSeguro{
