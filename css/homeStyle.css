@@ -1,362 +1,368 @@
 .header-blue {
-    background: linear-gradient(135deg, darkturquoise, #ffb3c5);
-    background-color:darkturquoise;
-    padding-bottom: 80px;
-    font-family: 'Source Sans Pro', sans-serif;
-  }
-  
-  @media (min-width:768px) {
-    .header-blue {
-      padding-bottom: 120px;
-    }
-  }
-  
-  .header-blue .navbar {
-    background: transparent;
-    padding-top: .75rem;
-    padding-bottom: .75rem;
-    color: #fff;
-    border-radius: 0;
-    box-shadow: none;
-    border: none;
-  }
-  
-  @media (min-width:768px) {
-    .header-blue .navbar {
-      padding-top: 1rem;
-      padding-bottom: 1rem;
-    }
-  }
-  
-  .header-blue .navbar .navbar-brand {
-    font-weight: bold;
-    color: inherit;
-  }
-  
-  .header-blue .navbar .navbar-brand:hover {
-    color: #f0f0f0;
-  }
-  
-  .header-blue .navbar .navbar-collapse {
-    border-top: 1px solid rgba(255,255,255,0.3);
-    margin-top: .5rem;
-  }
-  
-  @media (min-width:768px) {
-    .header-blue .navbar .navbar-collapse {
-      border-color: transparent;
-      margin: 0;
-    }
-  }
-  
-  .header-blue .navbar .navbar-collapse span .login {
-    color: #fff;
-    margin-right: .5rem;
-    text-decoration: none;
-  }
-  
-  .header-blue .navbar .navbar-collapse span .login:hover {
-    color: #fff;
-  }
-  
-  .header-blue .navbar .navbar-toggler {
-    border-color: rgba(255,255,255,0.3);
-  }
-  
-  .header-blue .navbar .navbar-toggler:hover, .header-blue .navbar-toggler:focus {
-    background: none;
-  }
-  
-  @media (min-width: 768px) {
-    .header-blue .navbar-nav .nav-link {
-      padding-left: .7rem;
-      padding-right: .7rem;
-    }
-  }
-  
-  @media (min-width: 992px) {
-    .header-blue .navbar-nav .nav-link {
-      padding-left: 1.2rem;
-      padding-right: 1.2rem;
-    }
-  }
-  
-  .header-blue .navbar.navbar-light .navbar-nav .nav-link {
-    color: #fff;
-  }
-  
-  .header-blue .navbar.navbar-light .navbar-nav .nav-link:focus, .header-blue .navbar.navbar-light .navbar-nav .nav-link:hover {
-    color: #fcfeff !important;
-    background-color: transparent;
-  }
-  
-  .header-blue .navbar .navbar-nav > li > .dropdown-menu {
-    margin-top: -5px;
-    box-shadow: 0 4px 8px rgba(0,0,0,.1);
-    background-color: #fff;
-    border-radius: 2px;
-  }
-  
-  .header-blue .navbar .dropdown-menu .dropdown-item:focus, .header-blue .navbar .dropdown-menu .dropdown-item {
-    line-height: 2;
-    color: #37434d;
-  }
-  
-  .header-blue .navbar .dropdown-menu .dropdown-item:focus, .header-blue .navbar .dropdown-menu .dropdown-item:hover {
-    background: #ebeff1;
-  }
-  
-  .header-blue .action-button, .header-blue .action-button:not(.disabled):active {
-    border: 1px solid rgb(255,255,255);
-    border-radius: 40px;
-    color: #fff;
-    box-shadow: none;
-    text-shadow: none;
-    padding: .3rem .8rem;
-    background: transparent;
-    transition: background-color 0.25s;
-    outline: none;
-  }
-  
-  .header-blue .action-button:hover {
-    color: #fff;
-  }
-  
-  .header-blue .navbar .form-inline label {
-    color: #d9d9d9;
-  }
-  
-  .header-blue .navbar .form-inline .search-field {
+  background: linear-gradient(135deg, darkturquoise, #ffb3c5);
+  background-color:darkturquoise;
+  padding-bottom: 80px;
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
+.header-blue .navbar {
+  background: transparent;
+  padding-top: .75rem;
+  padding-bottom: .75rem;
+  color: #fff;
+  border-radius: 0;
+  box-shadow: none;
+  border: none;
+}
+
+
+.header-blue .navbar .navbar-brand {
+  font-weight: bold;
+  color: inherit;
+}
+
+.header-blue .navbar .navbar-brand:hover {
+  color: #f0f0f0;
+}
+
+.header-blue .navbar .navbar-collapse {
+  border-top: 1px solid rgba(255,255,255,0.3);
+  margin-top: .5rem;
+}
+
+
+.header-blue .navbar .navbar-collapse span .login {
+  color: #fff;
+  margin-right: .5rem;
+  text-decoration: none;
+}
+
+.header-blue .navbar .navbar-collapse span .login:hover {
+  color: #fff;
+}
+
+.header-blue .navbar .navbar-toggler {
+  border-color: rgba(255,255,255,0.3);
+}
+
+.header-blue .navbar .navbar-toggler:hover, .header-blue .navbar-toggler:focus {
+  background: none;
+}
+
+
+.header-blue .navbar.navbar-light .navbar-nav .nav-link {
+  color: #fff;
+}
+
+.header-blue .navbar.navbar-light .navbar-nav .nav-link:focus, .header-blue .navbar.navbar-light .navbar-nav .nav-link:hover {
+  color: #fcfeff !important;
+  background-color: transparent;
+}
+
+.header-blue .navbar .navbar-nav > li > .dropdown-menu {
+  margin-top: -5px;
+  box-shadow: 0 4px 8px rgba(0,0,0,.1);
+  background-color: #fff;
+  border-radius: 2px;
+}
+
+.header-blue .navbar .dropdown-menu .dropdown-item:focus, .header-blue .navbar .dropdown-menu .dropdown-item {
+  line-height: 2;
+  color: #37434d;
+}
+
+.header-blue .navbar .dropdown-menu .dropdown-item:focus, .header-blue .navbar .dropdown-menu .dropdown-item:hover {
+  background: #ebeff1;
+}
+
+.header-blue .action-button, .header-blue .action-button:not(.disabled):active {
+  border: 1px solid rgb(255,255,255);
+  border-radius: 40px;
+  color: #fff;
+  box-shadow: none;
+  text-shadow: none;
+  padding: .3rem .8rem;
+  background: transparent;
+  transition: background-color 0.25s;
+  outline: none;
+}
+
+.header-blue .action-button:hover {
+  color: #fff;
+}
+
+.header-blue .navbar .form-inline label {
+  color: #d9d9d9;
+}
+
+.header-blue .navbar .form-inline .search-field {
+  display: inline-block;
+  width: 80%;
+  background: none;
+  border: none;
+  border-bottom: 1px solid transparent;
+  border-radius: 0;
+  color: #fff;
+  box-shadow: none;
+  color: inherit;
+  transition: border-bottom-color 0.3s;
+}
+
+.header-blue .navbar .form-inline .search-field:focus {
+  border-bottom: 1px solid #ccc;
+}
+.device{
+  height: 60em;
+  width: 100%;
+  margin-top: -4em;
+}
+.device img{
+  height: 45em;
+  width: 100%;
+}
+
+.headContent{
+  margin-top: -40em;
+}
+
+
+.header-blue .hero h1 {
+  color: #fff;
+  font-size: 40px;
+  margin-top: 0;
+  margin-bottom: 15px;
+  font-weight: 300;
+  line-height: 1.4;
+}
+
+
+.header-blue .hero p {
+  color:aliceblue;
+  font-size: 20px;
+  margin-bottom: 30px;
+  font-weight: 300;
+}
+
+.header-blue .phone-holder {
+  text-align: right;
+}
+
+.header-blue div.iphone-mockup {
+    max-width: 300px;
+    margin-top: 172px;
     display: inline-block;
-    width: 80%;
-    background: none;
-    border: none;
-    border-bottom: 1px solid transparent;
-    border-radius: 0;
-    color: #fff;
-    box-shadow: none;
-    color: inherit;
-    transition: border-bottom-color 0.3s;
+}
+
+.header-blue .iphone-mockup .screen {
+  width: 88%;
+  height: 77%;
+  top: 12%;
+  border-radius: 2px;
+  left: 6%;
+  border: 1px solid #444;
+  background-color: #aaa;
+  overflow: hidden;
+  background: url(../../assets/img/screen-content-iphone-6.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.telgst{
+  font-size: 18px;
+  font-weight: bolder;
+}
+.device{
+  width: 100%;
+}
+.headApartat{
+  padding: 1em 2em 1em 2em;
+  text-align: center;
+  font-weight: bold;
+}
+.dropdown {
+  position: relative;
+  display: flex;
+  margin-left: 60%;
+}
+.dropdown-toggle {
+  font-size: 25px;
+  text-align: right;
+}
+
+
+@media (min-width:768px) {
+  .header-blue {
+    padding-bottom: 120px;
   }
-  
-  .header-blue .navbar .form-inline .search-field:focus {
-    border-bottom: 1px solid #ccc;
+  .header-blue .hero {
+    margin-top: 60px;
+    text-align: left;
   }
-  
-  .device{
-    height: 60em;
-    width: 100%;
-    margin-top: -4em;
+  .header-blue .navbar .navbar-collapse {
+    border-color: transparent;
+    margin: 0;
   }
-  .headContent{
-    margin-top: -40em;
+  .header-blue .navbar {
+    padding-top: 1rem;
+    padding-bottom: 1rem;
   }
-  @media (min-width:768px) {
-    .header-blue .hero {
-      margin-top: 60px;
-      text-align: left;
-    }
+  .header-blue .navbar-nav .nav-link {
+    padding-left: .7rem;
+    padding-right: .7rem;
   }
-  
+}
+@media (max-width:769px) {
+  .hero {
+    display: none;
+  }
+}
+@media (min-width:992px) {
   .header-blue .hero h1 {
-    color: #fff;
-    font-size: 40px;
-    margin-top: 0;
-    margin-bottom: 15px;
-    font-weight: 300;
-    line-height: 1.4;
+    margin-top: 190px;
+    margin-bottom: 24px;
+    line-height: 1.2;
   }
-  
-  @media (min-width:992px) {
-    .header-blue .hero h1 {
-      margin-top: 190px;
-      margin-bottom: 24px;
-      line-height: 1.2;
-    }
+  .header-blue .navbar-nav .nav-link {
+    padding-left: 1.2rem;
+    padding-right: 1.2rem;
   }
-  
-  .header-blue .hero p {
-    color: rgba(255,255,255,0.8);
-    font-size: 20px;
-    margin-bottom: 30px;
-    font-weight: 300;
+}
+@media (max-width:992px) {
+  .dropdown {
+    margin-left: -40%;
   }
-  
-  .header-blue .phone-holder {
-    text-align: right;
+}
+@media (width:1200px) {
+  .dropdown {
+    margin-left: -20%;
   }
-  
-  .header-blue div.iphone-mockup {
-      max-width: 300px;
-      margin-top: 172px;
-      display: inline-block;
-  }
-
-  
-  .header-blue .iphone-mockup .screen {
-    width: 88%;
-    height: 77%;
-    top: 12%;
-    border-radius: 2px;
-    left: 6%;
-    border: 1px solid #444;
-    background-color: #aaa;
-    overflow: hidden;
-    background: url(../../assets/img/screen-content-iphone-6.jpg);
-    background-size: cover;
-    background-position: center;
-  }
-  .telegestion{
-    font-size: 20px;
-    font-weight: bolder;
-    margin: 0 4em 0 1em;
-  }
-  .device{
-    width: 100%;
-  }
-  .headApartat{
-    font-weight: bold;
-    margin: 0 20px 0 20px;
-    transition: all 0.5s;
-    border-radius: 5px;
-  }
-  .headApartat:hover{
-    background-color: #444;
-  }
-
-  /*-----------SECTOR1-------------SECTOR1-------------SECTOR1-----------*/
-  .antChars{
-    text-align: center;
-    font-weight: bold;
-    margin: 4em 0 2em 0;
-  }
-  .chars{
-    display: flex;
-    align-items: center;
-    display: grid;
-    grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
-    gap: 3em;
-    margin: 0 auto;
-    text-align: center;
-    margin:0 15em 0 15em;
-  }
-  .charBox{
-    height: 35em;
-    padding: 1em;
-    margin-bottom: 2em;
-    border:darkcyan solid;
-    color: darkcyan;
-    transition: 0.5s;
-    border-radius: 15px;
-  }
-  .charBox:hover{
-    border: darkslategrey solid;
-    color: darkslategrey;
-    transform: scale(1.05);
-  }
-
-  .charAux{
-    height: 88%;
-  }
-  .imgChar{
-    width: 30%;
-  }
-  .titChar{
-    font-size:25px;
-    font-weight:bold;
-    color: black;
-  }
-  .carsChar{
-    font-size: medium;
-  }
-  .infoChar{
-    padding: 10px 30px;
-    font-size: larger;
-    font-weight: bolder;
-    background-color: #184e8e;
-    color: aliceblue;
-    transition: background-color 0.3s;
-    border: none;
-  }
-  .infoChar:hover{
-    background-color: #444;
-  }
-
-
-  /*-----------SECTOR2-------------SECTOR2-------------SECTOR2-----------*/
-  .textBoxes{
-    margin: 8em 0 8em 0;
-    max-height: 50em;
-  }
-  .textBoxA,.textBoxR{
-    width: 50%;
-    transition: border 0.2s;
-  }
-  .textBoxUn{
-    text-align: center;
-    padding: 20px 0 20px 0;
-    background-color: #184e8e;
-    color: aliceblue;
-    margin: 0 -15px 0 -15px;
-  }
-  .textBoxDuo{
-    text-align: center;
-    padding: 20px 0 20px 0;
-    background-color:darkred;
-    color: aliceblue;
-    margin: 0 -15px 0 -15px;
-  }
-  .textBoxSecA,
-  .textBoxSecR{
-    margin: 0 5% 0 5%;
-    transition: border 0.1s;
-  }
-  .textBoxA:hover{
-    border: solid #184e8e 3px;
-    border-top: none;
-  }
-  .textBoxR:hover{
-    border: solid darkred 3px;
-    border-top: none;
-  }
-  .imgSect{
-    height: 20em;
-  }
-
-  .despBott{
-    color: #184e8e;
-    font-size: 20px;
-    font-weight: bold;
-    cursor: pointer;
-  }
-  .separator{
-    padding: 1px;
-    margin:5px 0 20px 0;
-    background-color: #184e8e;
-    border-radius: 5px;
-  }
-  .depBloc{
-    transition: all 0.5s ease;
-  }
-
-  .foot{
-    display: flex;
-    margin: 6em 0 1em 0;
-    color: #184e8e;
-    border: solid darkslategrey 2px;
-    height: 15em;
-    text-align: center;
-    align-items: center;
-
-  }
-  .foot div{
-    width: 100%;
-  }
-  .footBox{
-    display: flex;
-    justify-content: center;
-    text-decoration: none;
-  }
-  .footBox p{
-    margin: 0 30px 0 30px;
-  }
+}
+/*-----------SECTOR1-------------SECTOR1-------------SECTOR1-----------*/
+.antChars{
+  text-align: center;
+  font-weight: bold;
+  margin: 4em 0 2em 0;
+}
+.chars{
+  display: flex;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(auto-fill,minmax(250px,1fr));
+  gap: 3em;
+  margin: 0 auto;
+  text-align: center;
+  margin:0 15em 0 15em;
+}
+.charBox{
+  height: 35em;
+  padding: 1em;
+  margin-bottom: 2em;
+  border:darkcyan solid;
+  color: darkcyan;
+  transition: 0.5s;
+  border-radius: 15px;
+}
+.charBox:hover{
+  border: darkslategrey solid;
+  color: darkslategrey;
+  transform: scale(1.05);
+}
+.charAux{
+  height: 88%;
+}
+.imgChar{
+  width: 30%;
+}
+.titChar{
+  font-size:25px;
+  font-weight:bold;
+  color: black;
+}
+.carsChar{
+  font-size: medium;
+}
+.infoChar{
+  padding: 10px 30px;
+  font-size: larger;
+  font-weight: bolder;
+  background-color: #184e8e;
+  color: aliceblue;
+  transition: background-color 0.3s;
+  border: none;
+}
+.infoChar:hover{
+  background-color: #444;
+}
+/*-----------SECTOR2-------------SECTOR2-------------SECTOR2-----------*/
+.textBoxes{
+  margin: 8em 0 8em 0;
+  max-height: 50em;
+}
+.textBoxA,.textBoxR{
+  width: 50%;
+  transition: border 0.2s;
+}
+.textBoxUn{
+  text-align: center;
+  padding: 20px 0 20px 0;
+  background-color: #184e8e;
+  color: aliceblue;
+  margin: 0 -15px 0 -15px;
+}
+.textBoxDuo{
+  text-align: center;
+  padding: 20px 0 20px 0;
+  background-color:darkred;
+  color: aliceblue;
+  margin: 0 -15px 0 -15px;
+}
+.textBoxSecA,
+.textBoxSecR{
+  margin: 0 5% 0 5%;
+  transition: border 0.1s;
+}
+.textBoxA:hover{
+  border: solid #184e8e 3px;
+  border-top: none;
+}
+.textBoxR:hover{
+  border: solid darkred 3px;
+  border-top: none;
+}
+.imgSect{
+  height: 20em;
+}
+.despBott{
+  color: #184e8e;
+  font-size: 20px;
+  font-weight: bold;
+  cursor: pointer;
+}
+.separator{
+  padding: 1px;
+  margin:5px 0 20px 0;
+  background-color: #184e8e;
+  border-radius: 5px;
+}
+.depBloc{
+  transition: all 0.5s ease;
+}
+.foot{
+  display: flex;
+  margin: 6em 0 1em 0;
+  color: #184e8e;
+  border: solid darkslategrey 2px;
+  height: 15em;
+  text-align: center;
+  align-items: center;
+}
+.foot div{
+  width: 100%;
+}
+.footBox{
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+.footBox p{
+  margin: 0 30px 0 30px;
+}
