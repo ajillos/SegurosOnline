@@ -2,15 +2,15 @@
 
 
 .header-blue {
-  background: linear-gradient(135deg, rgb(108, 183, 212), #ffb3c5);
+  /*background: linear-gradient(135deg, rgb(108, 183, 212), #ffb3c5);*/
   background-color: #184e8e;
-  padding-bottom: 80px;
+  /*padding-bottom: 80px;*/
   font-family: 'Source Sans Pro', sans-serif;
 }
 
 @media (min-width:768px) {
   .header-blue {
-    padding-bottom: 120px;
+    /*padding-bottom: 120px;*/
   }
 }
 
@@ -27,7 +27,7 @@
 @media (min-width:768px) {
   .header-blue .navbar {
     padding-top: 1rem;
-    padding-bottom: 1rem;
+    /*padding-bottom: 1rem;*/
   }
 }
 
@@ -246,8 +246,8 @@
 .titChar{
   font-size: larger;
   font-weight: bolder;
-  color: aqua;
-  background-color: blueviolet;
+  color: #ffffff;
+  background-color: #184e8e;
 }
 .carsChar{
   font-size: medium;
@@ -286,6 +286,7 @@
   height: 15em;
   text-align: center;
   align-items: center;
+  background-color: #ffffff;
 
 }
 .foot div{
@@ -317,4 +318,8 @@
 }
 .imagenSeguro{
   max-height: 100px;
+}
+.formulario{
+  background-image: url(../img/slider1.jpg);
+  
 }
