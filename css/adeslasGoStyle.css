@@ -229,15 +229,15 @@
   font-weight: bold;
 }
 .chars{
-  display: flex;
+  /*display: flex;*/
   align-items: center;
   display: grid;
 
   gap: 4em;
   margin: 0 auto;
   text-align: center;
-  margin-left: 15em;
-  margin-right: 15em;
+  /*margin-left: 15em;
+  margin-right: 15em;*/
 }
 
 .imgChar{
