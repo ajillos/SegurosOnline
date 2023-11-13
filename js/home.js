@@ -1,43 +1,38 @@
-const firstDespT = document.getElementById('firstDespT');
-const secDespT = document.getElementById('secDespT');
-const thirdDespT = document.getElementById('thirdDespT');
-const fourDespT = document.getElementById('fourDespT');
 
-const firstDesp = document.getElementById('firstDesp');
-const secDesp = document.getElementById('secDesp');
-const thirdDesp = document.getElementById('thirdDesp');
-const fourtDesp = document.getElementById('fourtDesp');
+var desp = document.getElementById('desp');
+function mostrarContenido(clickeado) {
+    const contenido = clickeado.nextElementSibling;
 
-firstDesp.style.display='none';
-secDesp.style.display='none';
-thirdDesp.style.display='none';
-fourtDesp.style.display='none';
+    if (contenido.style.display === 'none') {
+        contenido.style.display = 'block';
+    } else {
+        contenido.style.display = 'none';
+    }
+}
 
-firstDespT.addEventListener('click', () => {
-    if(firstDesp.style.display==='none'){
-        firstDesp.style.display='block';
-    }else{
-        firstDesp.style.display='none';
-    }
-});
-secDespT.addEventListener('click', () => {
-    if(secDesp.style.display==='none'){
-        secDesp.style.display='block';
-    }else{
-        secDesp.style.display='none';
-    }
-});
-thirdDespT.addEventListener('click', () => {
-    if(thirdDesp.style.display==='none'){
-        thirdDesp.style.display='block';
-    }else{
-        thirdDesp.style.display='none';
-    }
-});
-fourDespT.addEventListener('click', () => {
-    if(fourtDesp.style.display==='none'){
-        fourtDesp.style.display='block';
-    }else{
-        fourtDesp.style.display='none';
-    }
-});
+var greenAlert = document.getElementById('greenAlert');
+var redAlert = document.getElementById('redAlert');
+function Reg() {
+    greenAlert.style.display = "block";
+}
+function Login() {
+    redAlert.style.display = "block";
+}
+
+function wave(clickeado) {
+    var onda = document.createElement('div');
+    onda.className = 'ondeante';
+    document.body.appendChild(onda);
+    var rect = clickeado.getBoundingClientRect();
+    var x = e.clientX - rect.left;
+    var y = e.clientY - rect.top;
+    onda.style.left = x + 'px';
+    onda.style.top = y + 'px';
+    alert('bob')
+
+    // Elimina la onda después de la animación
+    onda.addEventListener('animationend', function () {
+        clickeado.parentNode.removeChild(clickeado);
+    });
+};
+
